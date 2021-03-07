@@ -11,10 +11,14 @@ public class WriteIFs
     public void playerDied(boolean player1) {
         // Write an IF statement that checks “player1.isAlive()” 
         // and if that’s false, calls “displayGameOver(player1)”
+        
+        if (player1 == false) {
+            displayGameOver(player1);
+        }
      
     }
     
-    public String thermoSTAT(int room) {
+    /*public String thermoSTAT(int room) {
         // Write an IF statement that checks the 
         // “temperature(room)” and if that check is less than 70, 
         // calls “heatOn()” else calls “coolOn()”
@@ -54,9 +58,8 @@ public class WriteIFs
    String ss;
 
 
-  /**
-   * Constructor for objects of class WriteIFs
-   */
+  //Constructor for objects of class WriteIFs
+   
   public WriteIFs()
   {
       // initialise instance variables
@@ -96,5 +99,5 @@ public class WriteIFs
     }
     private void displayGameOver(boolean b) {
         this.ss = "Game Over!";
-    }
+    }*/
 }

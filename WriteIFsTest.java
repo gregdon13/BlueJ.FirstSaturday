@@ -15,6 +15,7 @@ public class WriteIFsTest
 {
     private static final double _0_5 = 0.5;
     private static final double _0_04 = 0.04;
+    
 
     /**
      * Default constructor for test class WriteIFsTest
@@ -52,7 +53,7 @@ public class WriteIFsTest
     }
 
 
-    @Test
+    /*@Test
     public void TestTherm()
     {
         WriteIFs writeIFs1 = new WriteIFs();
@@ -106,6 +107,6 @@ public class WriteIFsTest
         writeIFs1.tt_s = 1;
         writeIFs1.fireplaceControl(oo);
         assertEquals(1, writeIFs1.tt_s);
-    }
+    }*/
 
 }
