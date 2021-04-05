@@ -44,13 +44,13 @@ public class WriteIFsTest
     {
     }
 
-    /*@Test
+    @Test
     public void TestIfs()
     {
         WriteIFs writeIFs1 = new WriteIFs();
         writeIFs1.playerDied(true);
         assertEquals("Game Over!", writeIFs1.ss);
-    }*/
+    }
 
 
     @Test
@@ -59,7 +59,7 @@ public class WriteIFsTest
         WriteIFs writeIFs1 = new WriteIFs();
         assertEquals("heating", writeIFs1.thermoSTAT(62));
     }
-    /*@Test
+    @Test
     public void TestTherm1()
     {
         WriteIFs writeIFs1 = new WriteIFs();
@@ -107,6 +107,6 @@ public class WriteIFsTest
         writeIFs1.tt_s = 1;
         writeIFs1.fireplaceControl(oo);
         assertEquals(1, writeIFs1.tt_s);
-    }*/
+    }
 
 }
